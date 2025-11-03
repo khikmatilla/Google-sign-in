@@ -1,0 +1,33 @@
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: internal
+            client-secret:
+            scope:
+              - email
+              - profile
+
+          keycloak:
+            client-id: internal
+            client-secret:
+            provider: oidc
+            scope:
+              - openid
+              - profile
+              - email
+              - offline_access
+
+        provider:
+          oidc:
+            issuer-uri: http://localhost:9080/realms/b2b
+
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9080/realms/b2b
+          principal-claim-name: preferred_username
+          audiences:
+            - account

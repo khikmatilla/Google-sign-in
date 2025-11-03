@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>Kirish sahifasi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #a8edea, #fed6e3);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-card {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            text-align: center;
+            width: 320px;
+        }
+        h2 {
+            color: #444;
+            margin-bottom: 20px;
+        }
+        .google-btn {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        .google-btn:hover {
+            background: #f7f7f7;
+        }
+        .google-btn img {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="login-card">
+    <h2>Tizimga kiring</h2>
+    <div onclick="window.location.href='/oauth2/authorization/google'" class="google-btn">
+        <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google">
+        <span>Sign in with Google</span>
+    </div>
+
+</div>
+</body>
+</html>
