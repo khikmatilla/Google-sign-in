@@ -16,7 +16,7 @@ In the top-left corner, click the **three horizontal lines (☰)**, then select 
 
 In the **API & Services** window:
 
-* Select **Credentials** from the left menu.
+* Select **Enabled APis & services** from the left menu.
 * Click **Create Project**.
 * Enter a **Project name** and click **Create**.
 
@@ -29,27 +29,30 @@ In the **API & Services** window:
 After your project is created:
 
 * Open the **Credentials** tab again.
-* Click the **Create credentials +** button.
+* Click the **+ Create credentials ** button.
 
 ![Create Project](docs/images/step3.png)
+
 ---
 
 ## 4. Choose OAuth Client ID
 
 From the dropdown, select **OAuth client ID**.
-You’ll be asked to configure the **Consent Screen** — fill out the required details.
 
 ![Create Project](docs/images/step4.png)
 
-![Create Project](docs/images/step4.1.png)
+You’ll be asked to configure the **Consent Screen** — fill out the required details.
+
 ---
 
 ## 5. Configure Consent Screen
 
+![Create Project](docs/images/step5.0.png)
+
 After completing the consent screen setup, the **OAuth Overview** page will open.
 Click **Create OAuth Client** to continue.
 
-![Create Project](docs/images/step5.png)
+![Create Project](docs/images/step5.1.png)
 ---
 
 ## 6. Fill in OAuth Client Details
